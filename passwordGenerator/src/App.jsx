@@ -33,11 +33,11 @@ function App() {
   return (
     <>
       <div className="w-full h-screen bg-slate-950 flex justify-center items-center">
-        <div className="w-full max-w-md py-6 px-9 bg-gray-800 rounded-lg">
+        <div className="w-full max-w-md py-6 px-9 bg-gray-800 rounded-lg sm:w-1/2 mx-1">
           <h1 className="text-white text-center font-bold text-2xl">
             Password Generator
           </h1>
-          <div className="flex w-full items-center space-x-2 my-7">
+          <div className="flex flex-wrap sm:flex-wrap lg:flex-nowrap md:flex-nowrap gap-2 justify-center w-full items-center space-x-2 my-7">
             <input
               className="flex h-10 w-full rounded-md border border-white bg-transparent px-3 py-2 text-sm focus:outline-none focus:ring-1 placeholder:text-white text-white selection:bg-blue-900 focus:ring-black/30 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50"
               type="email"
